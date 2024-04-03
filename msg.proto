@@ -1,0 +1,13 @@
+//
+// Created by zhouzzz on 2018/6/18.
+// Description : 封装的数据格式
+//
+ 
+syntax = "proto2";
+package word3;
+message sendmsg
+{
+	required int32  clientid = 1;
+	required bytes  msg = 2;
+	optional string ip = 3;
+}
